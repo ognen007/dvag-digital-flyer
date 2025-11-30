@@ -21,9 +21,6 @@ const Index = () => {
       <Testimonials />
       <Portfolio />
       <Booking />
-      <footer className="bg-muted py-8 text-center text-muted-foreground">
-        <p>&copy; 2024 Deutsche Vermögensberatung. Alle Rechte vorbehalten.</p>
-      </footer>
     </div>
   );
 };
