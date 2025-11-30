@@ -1,0 +1,92 @@
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { Shield, Heart, Umbrella, ChevronDown } from "lucide-react";
+import { Card } from "@/components/ui/card";
+import { motion, AnimatePresence } from "framer-motion";
+
+const Services = () => {
+  const { t } = useTranslation();
+  const [expandedService, setExpandedService] = useState<string | null>(null);
+
+  const services = [
+    {
+      id: "retirement",
+      icon: Shield,
+      title: t("services.retirement.title"),
+      description: t("services.retirement.description"),
+    },
+    {
+      id: "health",
+      icon: Heart,
+      title: t("services.health.title"),
+      description: t("services.health.description"),
+    },
+    {
+      id: "liability",
+      icon: Umbrella,
+      title: t("services.liability.title"),
+      description: t("services.liability.description"),
+    },
+  ];
+
+  return (
+    <section id="services" className="py-20 bg-muted/50">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">
+            {t("services.title")}
+          </h2>
+          <p className="text-xl text-muted-foreground">
+            {t("services.subtitle")}
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {services.map((service) => {
+            const Icon = service.icon;
+            const isExpanded = expandedService === service.id;
+
+            return (
+              <Card
+                key={service.id}
+                className="p-6 cursor-pointer transition-all hover:shadow-xl"
+                onClick={() =>
+                  setExpandedService(isExpanded ? null : service.id)
+                }
+              >
+                <div className="flex flex-col items-center text-center">
+                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                    <Icon className="w-8 h-8 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-bold mb-2">{service.title}</h3>
+                  <ChevronDown
+                    className={`w-5 h-5 text-muted-foreground transition-transform ${
+                      isExpanded ? "rotate-180" : ""
+                    }`}
+                  />
+                  <AnimatePresence>
+                    {isExpanded && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="overflow-hidden"
+                      >
+                        <p className="text-muted-foreground mt-4">
+                          {service.description}
+                        </p>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              </Card>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Services;
