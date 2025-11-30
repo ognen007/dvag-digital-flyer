@@ -4,10 +4,9 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Star } from "lucide-react";
+import Autoplay from "embla-carousel-autoplay";
 
 const Testimonials = () => {
   const { t } = useTranslation();
@@ -49,7 +48,18 @@ const Testimonials = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <Carousel className="w-full">
+          <Carousel 
+            className="w-full"
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            plugins={[
+              Autoplay({
+                delay: 3000,
+              }),
+            ]}
+          >
             <CarouselContent>
               {testimonials.map((testimonial, index) => (
                 <CarouselItem key={index}>
@@ -73,8 +83,6 @@ const Testimonials = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
           </Carousel>
         </div>
       </div>
