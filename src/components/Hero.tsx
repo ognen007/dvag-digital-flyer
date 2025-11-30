@@ -20,8 +20,8 @@ const Hero = () => {
         </svg>
       </div>
 
-      <div className="absolute bottom-0 left-0 z-10 w-full md:w-1/2 lg:w-2/5 p-8">
-        <div className="w-full h-screen rounded-lg overflow-hidden shadow-2xl border-4 border-background">
+      <div className="absolute bottom-0 left-0 z-10 w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 m-4">
+        <div className="w-full h-full rounded-lg overflow-hidden shadow-2xl border-4 border-background">
           <img
             src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&h=800&fit=crop"
             alt="Financial Advisor"
