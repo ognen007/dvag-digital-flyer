@@ -17,11 +17,12 @@ const Booking = () => {
 
         <div className="w-full h-screen">
           <iframe
-            src="https://calendly.com"
+            src="https://calendly.com/your-username"
             width="100%"
             height="100%"
             frameBorder="0"
             title="Calendly Booking"
+            className="calendly-inline-widget"
           />
         </div>
       </div>
