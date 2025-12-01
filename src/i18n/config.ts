@@ -54,6 +54,12 @@ const resources = {
           engagement: "Engagement"
         }
       },
+      contact: {
+        phone: "Telefon",
+        email: "E-Mail",
+        calendar: "Kalender",
+        location: "Standort"
+      },
       booking: {
         title: "Vereinbaren Sie einen Termin",
         subtitle: "Ich freue mich auf ein persönliches Gespräch mit Ihnen"
@@ -110,6 +116,12 @@ const resources = {
           experience: "Years of Experience",
           engagement: "Engagement"
         }
+      },
+      contact: {
+        phone: "Phone",
+        email: "Email",
+        calendar: "Calendar",
+        location: "Location"
       },
       booking: {
         title: "Schedule an Appointment",
@@ -168,6 +180,12 @@ const resources = {
           engagement: "Посветеност"
         }
       },
+      contact: {
+        phone: "Телефон",
+        email: "Е-пошта",
+        calendar: "Календар",
+        location: "Локација"
+      },
       booking: {
         title: "Закажете состанок",
         subtitle: "Се радувам на личен разговор со вас"
@@ -225,6 +243,12 @@ const resources = {
           engagement: "Ангажираност"
         }
       },
+      contact: {
+        phone: "Телефон",
+        email: "Имейл",
+        calendar: "Календар",
+        location: "Местоположение"
+      },
       booking: {
         title: "Запазете час",
         subtitle: "Очаквам с нетърпение личен разговор с вас"
@@ -281,6 +305,12 @@ const resources = {
           experience: "Godina iskustva",
           engagement: "Predanost"
         }
+      },
+      contact: {
+        phone: "Telefon",
+        email: "Email",
+        calendar: "Kalendar",
+        location: "Lokacija"
       },
       booking: {
         title: "Zakažite sastanak",

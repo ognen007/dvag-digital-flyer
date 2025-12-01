@@ -1,36 +1,36 @@
+import { useTranslation } from "react-i18next";
 import { Phone, Mail, Calendar, MapPin } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   const contactItems = [
     {
       icon: Phone,
-      label: "Phone",
+      labelKey: "contact.phone",
       value: "+49 170 4973563",
       href: "tel:+4917049735063",
-      action: "Call"
     },
     {
       icon: Mail,
-      label: "Email",
+      labelKey: "contact.email",
       value: "contact@example.com",
       href: "mailto:contact@example.com",
-      action: "Email"
     },
     {
       icon: Calendar,
-      label: "Calendar",
+      labelKey: "contact.calendar",
       value: "Schedule a meeting",
       href: "https://calendly.com/miki-lazarov44/30min",
-      action: "Book"
+      target: "_blank",
     },
     {
       icon: MapPin,
-      label: "Location",
-      value: "Coming soon",
-      href: "#",
-      action: "View",
-      disabled: true
+      labelKey: "contact.location",
+      value: "Hauptstraße 62\n77839 Lichtenau",
+      href: "https://www.google.com/maps/search/Hauptstraße+62,+77839+Lichtenau",
+      target: "_blank",
     }
   ];
 
@@ -46,19 +46,17 @@ const Contact = () => {
                 className="p-6 hover:shadow-lg transition-shadow"
               >
                 <a
-                  href={item.disabled ? undefined : item.href}
-                  target={item.label === "Calendar" ? "_blank" : undefined}
-                  rel={item.label === "Calendar" ? "noopener noreferrer" : undefined}
-                  className={`flex flex-col items-center text-center gap-3 ${
-                    item.disabled ? "pointer-events-none opacity-50" : ""
-                  }`}
+                  href={item.href}
+                  target={item.target}
+                  rel={item.target === "_blank" ? "noopener noreferrer" : undefined}
+                  className="flex flex-col items-center text-center gap-3"
                 >
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                     <Icon className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-sm mb-1">{item.label}</h3>
-                    <p className="text-xs text-muted-foreground break-words">
+                    <h3 className="font-semibold text-sm mb-1">{t(item.labelKey)}</h3>
+                    <p className="text-xs text-muted-foreground break-words whitespace-pre-line">
                       {item.value}
                     </p>
                   </div>
