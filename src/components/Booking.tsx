@@ -17,7 +17,7 @@ const Booking = () => {
 
         <div className="w-full h-screen">
           <iframe
-            src="https://calendly.com/ognenvl/marketing-proposal"
+            src="https://calendly.com/miki-lazarov44/30min"
             width="100%"
             height="100%"
             frameBorder="0"
