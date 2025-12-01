@@ -19,17 +19,25 @@ const resources = {
       services: {
         title: "Unsere Leistungen",
         subtitle: "Umfassende Beratung für Ihre finanzielle Sicherheit",
+        insurance: {
+          title: "Versicherungen",
+          description: "Umfassender Schutz für alle Lebenslagen. Von Kranken- bis Haftpflichtversicherung - wir finden die optimale Lösung für Sie."
+        },
+        loans: {
+          title: "Kredite",
+          description: "Günstige Finanzierungslösungen für Ihre Wünsche. Ob Auto, Immobilie oder persönliche Projekte - wir helfen Ihnen weiter."
+        },
         retirement: {
           title: "Altersvorsorge",
           description: "Individuelle Lösungen für einen sorgenfreien Ruhestand. Wir helfen Ihnen, Ihre finanzielle Zukunft abzusichern."
         },
-        health: {
-          title: "Krankenversicherung",
-          description: "Optimaler Schutz für Ihre Gesundheit. Finden Sie die passende Versicherung für Ihre Bedürfnisse."
+        building: {
+          title: "Bausparen",
+          description: "Der Weg zum Eigenheim. Mit Bausparverträgen schaffen Sie die ideale Grundlage für Ihr Wohneigentum."
         },
-        liability: {
-          title: "Haftpflichtversicherung",
-          description: "Schutz vor finanziellen Risiken im Alltag. Sichern Sie sich und Ihre Familie ab."
+        investments: {
+          title: "Investments",
+          description: "Vermögensaufbau mit System. Professionelle Anlagestrategien für Ihre finanziellen Ziele und Renditeerwartungen."
         }
       },
       testimonials: {
@@ -62,17 +70,25 @@ const resources = {
       services: {
         title: "Our Services",
         subtitle: "Comprehensive consulting for your financial security",
+        insurance: {
+          title: "Insurance",
+          description: "Comprehensive protection for all life situations. From health to liability insurance - we find the optimal solution for you."
+        },
+        loans: {
+          title: "Loans",
+          description: "Affordable financing solutions for your wishes. Whether car, property or personal projects - we help you succeed."
+        },
         retirement: {
           title: "Retirement Planning",
           description: "Individual solutions for a worry-free retirement. We help you secure your financial future."
         },
-        health: {
-          title: "Health Insurance",
-          description: "Optimal protection for your health. Find the right insurance for your needs."
+        building: {
+          title: "Building Savings",
+          description: "The path to homeownership. Building savings contracts create the ideal foundation for your property."
         },
-        liability: {
-          title: "Liability Insurance",
-          description: "Protection against financial risks in everyday life. Secure yourself and your family."
+        investments: {
+          title: "Investments",
+          description: "Systematic wealth building. Professional investment strategies for your financial goals and return expectations."
         }
       },
       testimonials: {
@@ -105,17 +121,25 @@ const resources = {
       services: {
         title: "Наши Услуги",
         subtitle: "Сеопфатно советување за вашата финансиска сигурност",
+        insurance: {
+          title: "Осигурување",
+          description: "Сеопфатна заштита за сите животни ситуации. От здравствено до осигурување од одговорност - наоѓаме оптимално решение за вас."
+        },
+        loans: {
+          title: "Кредити",
+          description: "Поволни решенија за финансирање на вашите желби. Без разлика дали е автомобил, имот или лични проекти - ви помагаме."
+        },
         retirement: {
           title: "Пензиско планирање",
           description: "Индивидуални решенија за беззагрижено пензионирање. Ви помагаме да ја обезбедите вашата финансиска иднина."
         },
-        health: {
-          title: "Здравствено осигурување",
-          description: "Оптимална заштита за вашето здравје. Најдете го вистинското осигурување за вашите потреби."
+        building: {
+          title: "Штедење за градба",
+          description: "Патот кон сопствен дом. Со договори за штедење за градба создавате идеална основа за ваш имот."
         },
-        liability: {
-          title: "Осигурување од одговорност",
-          description: "Заштита од финансиски ризици во секојдневието. Обезбедете се вие и вашето семејство."
+        investments: {
+          title: "Инвестиции",
+          description: "Систематско градење богатство. Професионални инвестициски стратегии за вашите финансиски цели и очекувања за принос."
         }
       },
       testimonials: {
@@ -148,17 +172,25 @@ const resources = {
       services: {
         title: "Нашите Услуги",
         subtitle: "Цялостно консултиране за вашата финансова сигурност",
+        insurance: {
+          title: "Застраховки",
+          description: "Цялостна защита за всички житейски ситуации. От здравно до застраховка отговорност - намираме оптималното решение за вас."
+        },
+        loans: {
+          title: "Кредити",
+          description: "Изгодни решения за финансиране на вашите желания. Независимо дали е автомобил, имот или лични проекти - ние ви помагаме."
+        },
         retirement: {
           title: "Пенсионно планиране",
           description: "Индивидуални решения за безгрижна пенсия. Помагаме ви да обезпечите финансовото си бъдеще."
         },
-        health: {
-          title: "Здравно осигуряване",
-          description: "Оптимална защита за вашето здраве. Намерете подходящата застраховка за вашите нужди."
+        building: {
+          title: "Спестяване за строителство",
+          description: "Пътят към собствен дом. С договори за спестяване за строителство създавате идеална основа за вашия имот."
         },
-        liability: {
-          title: "Застраховка отговорност",
-          description: "Защита срещу финансови рискове в ежедневието. Обезпечете себе си и семейството си."
+        investments: {
+          title: "Инвестиции",
+          description: "Системно изграждане на богатство. Професионални инвестиционни стратегии за вашите финансови цели и очаквания за доходност."
         }
       },
       testimonials: {
@@ -191,17 +223,25 @@ const resources = {
       services: {
         title: "Naše Usluge",
         subtitle: "Sveobuhvatno savjetovanje za vašu financijsku sigurnost",
+        insurance: {
+          title: "Osiguranja",
+          description: "Sveobuhvatna zaštita za sve životne situacije. Od zdravstvenog do osiguranja od odgovornosti - nalazimo optimalno rješenje za vas."
+        },
+        loans: {
+          title: "Krediti",
+          description: "Povoljni načini financiranja za vaše želje. Bilo da je automobil, nekretnina ili osobni projekti - pomažemo vam."
+        },
         retirement: {
           title: "Planiranje mirovine",
           description: "Individualna rješenja za bezbrižnu mirovinu. Pomažemo vam osigurati vašu financijsku budućnost."
         },
-        health: {
-          title: "Zdravstveno osiguranje",
-          description: "Optimalna zaštita za vaše zdravlje. Pronađite pravo osiguranje za vaše potrebe."
+        building: {
+          title: "Štednja za gradnju",
+          description: "Put do vlastitog doma. Ugovorima o štednji za gradnju stvarate idealan temelj za vašu nekretninu."
         },
-        liability: {
-          title: "Osiguranje od odgovornosti",
-          description: "Zaštita od financijskih rizika u svakodnevnom životu. Osigurajte sebe i svoju obitelj."
+        investments: {
+          title: "Investicije",
+          description: "Sustavna izgradnja bogatstva. Profesionalne investicijske strategije za vaše financijske ciljeve i očekivanja o prinosu."
         }
       },
       testimonials: {

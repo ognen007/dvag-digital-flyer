@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Shield, Heart, Umbrella, ChevronDown } from "lucide-react";
+import { Shield, Banknote, PiggyBank, Home, TrendingUp, ChevronDown } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -10,22 +10,34 @@ const Services = () => {
 
   const services = [
     {
-      id: "retirement",
+      id: "insurance",
       icon: Shield,
+      title: t("services.insurance.title"),
+      description: t("services.insurance.description"),
+    },
+    {
+      id: "loans",
+      icon: Banknote,
+      title: t("services.loans.title"),
+      description: t("services.loans.description"),
+    },
+    {
+      id: "retirement",
+      icon: PiggyBank,
       title: t("services.retirement.title"),
       description: t("services.retirement.description"),
     },
     {
-      id: "health",
-      icon: Heart,
-      title: t("services.health.title"),
-      description: t("services.health.description"),
+      id: "building",
+      icon: Home,
+      title: t("services.building.title"),
+      description: t("services.building.description"),
     },
     {
-      id: "liability",
-      icon: Umbrella,
-      title: t("services.liability.title"),
-      description: t("services.liability.description"),
+      id: "investments",
+      icon: TrendingUp,
+      title: t("services.investments.title"),
+      description: t("services.investments.description"),
     },
   ];
 
@@ -41,7 +53,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {services.map((service) => {
             const Icon = service.icon;
             const isExpanded = expandedService === service.id;
