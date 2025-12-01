@@ -9,22 +9,22 @@ const Portfolio = () => {
     {
       icon: Users,
       value: "500+",
-      label: "Zufriedene Kunden",
+      label: t("portfolio.stats.clients"),
     },
     {
       icon: TrendingUp,
       value: "98%",
-      label: "Kundenzufriedenheit",
+      label: t("portfolio.stats.satisfaction"),
     },
     {
       icon: Award,
       value: "15+",
-      label: "Jahre Erfahrung",
+      label: t("portfolio.stats.experience"),
     },
     {
       icon: Heart,
       value: "100%",
-      label: "Engagement",
+      label: t("portfolio.stats.engagement"),
     },
   ];
 

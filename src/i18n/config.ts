@@ -46,7 +46,13 @@ const resources = {
       },
       portfolio: {
         title: "Unser Portfolio",
-        subtitle: "Erfolgreiche Projekte und zufriedene Kunden"
+        subtitle: "Erfolgreiche Projekte und zufriedene Kunden",
+        stats: {
+          clients: "Zufriedene Kunden",
+          satisfaction: "Kundenzufriedenheit",
+          experience: "Jahre Erfahrung",
+          engagement: "Engagement"
+        }
       },
       booking: {
         title: "Vereinbaren Sie einen Termin",
@@ -97,7 +103,13 @@ const resources = {
       },
       portfolio: {
         title: "Our Portfolio",
-        subtitle: "Successful projects and satisfied clients"
+        subtitle: "Successful projects and satisfied clients",
+        stats: {
+          clients: "Satisfied Clients",
+          satisfaction: "Client Satisfaction",
+          experience: "Years of Experience",
+          engagement: "Engagement"
+        }
       },
       booking: {
         title: "Schedule an Appointment",
@@ -148,7 +160,13 @@ const resources = {
       },
       portfolio: {
         title: "Нашето Портфолио",
-        subtitle: "Успешни проекти и задоволни клиенти"
+        subtitle: "Успешни проекти и задоволни клиенти",
+        stats: {
+          clients: "Задоволни клиенти",
+          satisfaction: "Задоволство на клиентите",
+          experience: "Години искуство",
+          engagement: "Посветеност"
+        }
       },
       booking: {
         title: "Закажете состанок",
@@ -199,7 +217,13 @@ const resources = {
       },
       portfolio: {
         title: "Нашето Портфолио",
-        subtitle: "Успешни проекти и доволни клиенти"
+        subtitle: "Успешни проекти и доволни клиенти",
+        stats: {
+          clients: "Доволни клиенти",
+          satisfaction: "Удовлетвореност на клиентите",
+          experience: "Години опит",
+          engagement: "Ангажираност"
+        }
       },
       booking: {
         title: "Запазете час",
@@ -250,7 +274,13 @@ const resources = {
       },
       portfolio: {
         title: "Naš Portfolio",
-        subtitle: "Uspješni projekti i zadovoljni klijenti"
+        subtitle: "Uspješni projekti i zadovoljni klijenti",
+        stats: {
+          clients: "Zadovoljni klijenti",
+          satisfaction: "Zadovoljstvo klijenata",
+          experience: "Godina iskustva",
+          engagement: "Predanost"
+        }
       },
       booking: {
         title: "Zakažite sastanak",
