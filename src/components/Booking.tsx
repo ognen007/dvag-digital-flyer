@@ -17,7 +17,7 @@ const Booking = () => {
 
         <div className="w-full h-screen">
           <iframe
-            src="https://calendly.com/your-username"
+            src="https://calendly.com/ognenvl/marketing-proposal"
             width="100%"
             height="100%"
             frameBorder="0"
