@@ -60,6 +60,7 @@ const resources = {
         }
       },
       contact: {
+        name: "Miki Lazarov",
         phone: "Telefon",
         email: "E-Mail",
         calendar: "Kalender",
@@ -128,6 +129,7 @@ const resources = {
         }
       },
       contact: {
+        name: "Miki Lazarov",
         phone: "Phone",
         email: "Email",
         calendar: "Calendar",
@@ -196,6 +198,7 @@ const resources = {
         }
       },
       contact: {
+        name: "Мики Лазаров",
         phone: "Телефон",
         email: "Е-пошта",
         calendar: "Календар",
@@ -264,6 +267,7 @@ const resources = {
         }
       },
       contact: {
+        name: "Мики Лазаров",
         phone: "Телефон",
         email: "Имейл",
         calendar: "Календар",
@@ -332,6 +336,7 @@ const resources = {
         }
       },
       contact: {
+        name: "Miki Lazarov",
         phone: "Telefon",
         email: "Email",
         calendar: "Kalendar",
