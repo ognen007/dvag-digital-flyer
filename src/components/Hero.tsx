@@ -20,7 +20,7 @@ const Hero = () => {
         </svg>
       </div>
 
-      <div className="absolute bottom-0 left-0 md:left-auto md:right-0 z-10 w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 m-4 md:mb-8 md:mr-8">
+      <div className="absolute bottom-0 right-0 z-10 w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 m-4 md:mb-8 md:mr-8">
         <div className="w-full h-full overflow-hidden">
           <img
             src="https://i.ibb.co/ktG4qyV/image.png"
