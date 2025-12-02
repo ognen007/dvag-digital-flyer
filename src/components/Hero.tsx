@@ -21,7 +21,7 @@ const Hero = () => {
       </div>
 
       <div className="absolute bottom-0 left-0 md:left-auto md:right-0 z-10 w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 m-4 md:mb-8 md:mr-8">
-        <div className="w-full h-full rounded-lg overflow-hidden shadow-2xl">
+        <div className="w-full h-full overflow-hidden">
           <img
             src="https://i.ibb.co/ktG4qyV/image.png"
             alt="Financial Advisor"
