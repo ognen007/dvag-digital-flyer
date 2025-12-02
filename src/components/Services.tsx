@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Shield, Banknote, PiggyBank, Home, TrendingUp, ChevronDown } from "lucide-react";
+import { Shield, Banknote, PiggyBank, Home, TrendingUp, ChevronDown, FileText } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Services = () => {
@@ -39,6 +40,13 @@ const Services = () => {
       title: t("services.investments.title"),
       description: t("services.investments.description"),
     },
+    {
+      id: "factoring",
+      icon: FileText,
+      title: t("services.factoring.title"),
+      description: t("services.factoring.description"),
+      badge: t("services.factoring.badge"),
+    },
   ];
 
   return (
@@ -71,6 +79,9 @@ const Services = () => {
                     <Icon className="w-8 h-8 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">{service.title}</h3>
+                  {service.badge && (
+                    <Badge variant="secondary" className="mb-2">{service.badge}</Badge>
+                  )}
                   <ChevronDown
                     className={`w-5 h-5 text-muted-foreground transition-transform ${
                       isExpanded ? "rotate-180" : ""

@@ -38,6 +38,11 @@ const resources = {
         investments: {
           title: "Investments",
           description: "Vermögensaufbau mit System. Professionelle Anlagestrategien für Ihre finanziellen Ziele und Renditeerwartungen."
+        },
+        factoring: {
+          title: "Factoring",
+          description: "Sofortige Liquidität für Ihr Unternehmen. Verkaufen Sie Ihre Forderungen und erhalten Sie umgehend Ihr Geld.",
+          badge: "Nur für Selbständige"
         }
       },
       testimonials: {
@@ -101,6 +106,11 @@ const resources = {
         investments: {
           title: "Investments",
           description: "Systematic wealth building. Professional investment strategies for your financial goals and return expectations."
+        },
+        factoring: {
+          title: "Factoring",
+          description: "Immediate liquidity for your business. Sell your receivables and get your money right away.",
+          badge: "Self-employed only"
         }
       },
       testimonials: {
@@ -164,6 +174,11 @@ const resources = {
         investments: {
           title: "Инвестиции",
           description: "Систематско градење богатство. Професионални инвестициски стратегии за вашите финансиски цели и очекувања за принос."
+        },
+        factoring: {
+          title: "Факторинг",
+          description: "Моментална ликвидност за вашиот бизнис. Продајте ги вашите побарувања и добијте го вашиот паричен износ веднаш.",
+          badge: "Само за самовработени"
         }
       },
       testimonials: {
@@ -227,6 +242,11 @@ const resources = {
         investments: {
           title: "Инвестиции",
           description: "Системно изграждане на богатство. Професионални инвестиционни стратегии за вашите финансови цели и очаквания за доходност."
+        },
+        factoring: {
+          title: "Факторинг",
+          description: "Незабавна ликвидност за вашия бизнес. Продайте вземанията си и получете парите си веднага.",
+          badge: "Само за самонаети"
         }
       },
       testimonials: {
@@ -290,6 +310,11 @@ const resources = {
         investments: {
           title: "Investicije",
           description: "Sustavna izgradnja bogatstva. Profesionalne investicijske strategije za vaše financijske ciljeve i očekivanja o prinosu."
+        },
+        factoring: {
+          title: "Faktoring",
+          description: "Trenutna likvidnost za vaše poslovanje. Prodajte svoja potraživanja i odmah dobijte svoj novac.",
+          badge: "Samo za samozaposlene"
         }
       },
       testimonials: {
