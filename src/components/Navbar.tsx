@@ -43,7 +43,7 @@ const Navbar = () => {
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" className="gap-2">
                 <Globe className="h-5 w-5" />
-                <span className="hidden sm:inline text-sm">{t("nav.changeLanguage")}</span>
+                <span className="text-sm">{t("nav.changeLanguage")}</span>
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="bg-popover z-50">

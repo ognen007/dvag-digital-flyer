@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section id="hero" className="relative h-[50vh] md:h-[60vh] pt-20">
+    <section id="hero" className="relative h-[45vh] md:h-[60vh] pt-20">
       <div className="absolute inset-0 overflow-hidden">
         <svg
           className="absolute inset-0 w-full h-full"
@@ -20,7 +20,7 @@ const Hero = () => {
         </svg>
       </div>
 
-      <div className="absolute bottom-0 right-0 z-10 w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 m-4 md:mb-8 md:mr-8">
+      <div className="absolute bottom-0 right-0 z-10 w-56 h-56 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem] m-4 md:mb-8 md:mr-8">
         <div className="w-full h-full overflow-hidden">
           <img
             src="https://i.ibb.co/ktG4qyV/image.png"
