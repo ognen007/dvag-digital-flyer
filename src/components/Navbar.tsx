@@ -18,7 +18,7 @@ const Navbar = () => {
     { code: "en", name: "English" },
     { code: "mk", name: "Македонски" },
     { code: "bg", name: "Български" },
-    { code: "hr", name: "Hrvatski" },
+    { code: "hr", name: "Srbo/Hrvatski" },
   ];
 
   const changeLanguage = (lng: string) => {
