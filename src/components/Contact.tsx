@@ -37,6 +37,9 @@ const Contact = () => {
   return (
     <section id="contact" className="py-12 bg-background">
       <div className="container mx-auto px-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-primary text-center mb-8">
+          Miki Lazarov
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
           {contactItems.map((item, index) => {
             const Icon = item.icon;
