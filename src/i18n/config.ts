@@ -46,6 +46,13 @@ const resources = {
           badge: "Nur für Selbständige"
         }
       },
+      angebot: {
+        text: "Benötigen Sie Hilfe beim Übersetzen von Briefen oder bei einem Termin?",
+        callMe: "Rufen Sie mich an",
+        or: "oder",
+        makeAppointment: "vereinbaren Sie einen Termin",
+        forMoreInfo: "für weitere Informationen"
+      },
       testimonials: {
         title: "Was unsere Kunden sagen",
         subtitle: "Erfahrungen zufriedener Kunden"
@@ -115,6 +122,13 @@ const resources = {
           description: "Immediate liquidity for your business. Sell your receivables and get your money right away.",
           badge: "Self-employed only"
         }
+      },
+      angebot: {
+        text: "Do you need help translating letters or when you have an appointment?",
+        callMe: "Call me",
+        or: "or",
+        makeAppointment: "make an appointment",
+        forMoreInfo: "for more info"
       },
       testimonials: {
         title: "What Our Clients Say",
@@ -186,6 +200,13 @@ const resources = {
           badge: "Само за самовработени"
         }
       },
+      angebot: {
+        text: "Дали ви треба помош со преведување писма или кога имате термин?",
+        callMe: "Јавете ми се",
+        or: "или",
+        makeAppointment: "закажете термин",
+        forMoreInfo: "за повеќе информации"
+      },
       testimonials: {
         title: "Што велат нашите клиенти",
         subtitle: "Искуства од задоволни клиенти"
@@ -256,6 +277,13 @@ const resources = {
           badge: "Само за самонаети"
         }
       },
+      angebot: {
+        text: "Нуждаете ли се от помощ за превод на писма или когато имате среща?",
+        callMe: "Обадете ми се",
+        or: "или",
+        makeAppointment: "запазете час",
+        forMoreInfo: "за повече информация"
+      },
       testimonials: {
         title: "Какво казват нашите клиенти",
         subtitle: "Опит от доволни клиенти"
@@ -325,6 +353,13 @@ const resources = {
           description: "Trenutna likvidnost za vaše poslovanje. Prodajte svoja potraživanja i odmah dobijte svoj novac.",
           badge: "Samo za samozaposlene"
         }
+      },
+      angebot: {
+        text: "Trebate li pomoć pri prevođenju pisama ili kada imate sastanak?",
+        callMe: "Nazovite me",
+        or: "ili",
+        makeAppointment: "zakažite sastanak",
+        forMoreInfo: "za više informacija"
       },
       testimonials: {
         title: "Što kažu naši klijenti",

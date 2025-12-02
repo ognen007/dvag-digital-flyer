@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Contact from "@/components/Contact";
 import Services from "@/components/Services";
+import Angebot from "@/components/Angebot";
 import Testimonials from "@/components/Testimonials";
 import Portfolio from "@/components/Portfolio";
 import Booking from "@/components/Booking";
@@ -10,7 +11,6 @@ import "@/i18n/config";
 
 const Index = () => {
   useEffect(() => {
-    // Smooth scroll behavior
     document.documentElement.style.scrollBehavior = "smooth";
   }, []);
 
@@ -20,6 +20,7 @@ const Index = () => {
       <Hero />
       <Contact />
       <Services />
+      <Angebot />
       <Testimonials />
       <Portfolio />
       <Booking />
