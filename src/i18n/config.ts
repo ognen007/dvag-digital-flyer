@@ -10,7 +10,8 @@ const resources = {
         services: "Leistungen",
         testimonials: "Referenzen",
         portfolio: "Portfolio",
-        contact: "Kontakt"
+        contact: "Kontakt",
+        changeLanguage: "Sprache Ändern"
       },
       hero: {
         title: "Ihre finanzielle Zukunft in guten Händen",
@@ -79,7 +80,8 @@ const resources = {
         services: "Services",
         testimonials: "Testimonials",
         portfolio: "Portfolio",
-        contact: "Contact"
+        contact: "Contact",
+        changeLanguage: "Change Language"
       },
       hero: {
         title: "Your Financial Future in Good Hands",
@@ -148,7 +150,8 @@ const resources = {
         services: "Услуги",
         testimonials: "Референци",
         portfolio: "Портфолио",
-        contact: "Контакт"
+        contact: "Контакт",
+        changeLanguage: "Промени јазик"
       },
       hero: {
         title: "Вашата финансиска иднина во добри раце",
@@ -217,7 +220,8 @@ const resources = {
         services: "Услуги",
         testimonials: "Препоръки",
         portfolio: "Портфолио",
-        contact: "Контакт"
+        contact: "Контакт",
+        changeLanguage: "Промени езика"
       },
       hero: {
         title: "Вашето финансово бъдеще в добри ръце",
@@ -286,7 +290,8 @@ const resources = {
         services: "Usluge",
         testimonials: "Reference",
         portfolio: "Portfolio",
-        contact: "Kontakt"
+        contact: "Kontakt",
+        changeLanguage: "Promjena jezika"
       },
       hero: {
         title: "Vaša financijska budućnost u dobrim rukama",
